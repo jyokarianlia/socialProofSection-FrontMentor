@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "League Spartan", sans-serif;
+}
+
+body {
+  font-size: 15px;
+}
+
+.contenedor {
+  padding: 6rem 2rem;
+  background-color: hsl(0deg, 0%, 100%);
+}
+.contenedor section {
+  text-align: center;
+}
+.contenedor section h2 {
+  color: hsl(300deg, 43%, 22%);
+  font-weight: 700;
+  font-size: 2.3rem;
+}
+.contenedor section p {
+  font-size: 1rem;
+  color: hsl(303deg, 10%, 53%);
+  margin: 2rem 0;
+}
+.contenedor section .calification {
+  background-color: hsl(300deg, 24%, 96%);
+  padding: 1rem 0;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+.contenedor section .calification p {
+  color: hsl(300deg, 43%, 22%);
+  margin: 0.7rem 0 0 0;
+  font-weight: 700;
+}
+.contenedor .contentCard {
+  margin-top: 4rem;
+}
+.contenedor .contentCard .card {
+  background-color: hsl(300deg, 43%, 22%);
+  padding: 3rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+  text-align: left;
+  font-weight: 500;
+}
+.contenedor .contentCard .card p {
+  color: hsl(0deg, 0%, 100%);
+  margin: 1.7rem 0 1rem 0;
+  line-height: 1.5rem;
+}
+.contenedor .contentCard .card .cardPerfil {
+  display: flex;
+  align-items: center;
+}
+.contenedor .contentCard .card .cardPerfil img {
+  width: 2.7rem;
+  border-radius: 50%;
+}
+.contenedor .contentCard .card .cardPerfil p {
+  margin: 0 1rem;
+  justify-content: left;
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 500;
+}
+.contenedor .contentCard .card .cardPerfil p span {
+  display: block;
+  color: hsl(333deg, 80%, 67%);
+  font-weight: 400;
+}/*# sourceMappingURL=index.css.map */
