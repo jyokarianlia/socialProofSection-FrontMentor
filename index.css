@@ -38,6 +38,24 @@ body {
   margin: 0.7rem 0 0 0;
   font-weight: 700;
 }
+@media (min-width: 500px) {
+  .contenedor section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedor section .calification {
+    width: 350px;
+  }
+  .contenedor .contentCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedor .contentCard .card {
+    width: 350px;
+  }
+}
 .contenedor .contentCard {
   margin-top: 4rem;
 }
@@ -72,4 +90,47 @@ body {
   display: block;
   color: hsl(333deg, 80%, 67%);
   font-weight: 400;
+}
+
+@media (min-width: 1000px) {
+  .contenedor {
+    padding: 7rem 10rem;
+  }
+  .contenedor .miniContenedor {
+    display: flex;
+  }
+  .contenedor .miniContenedor .section1 {
+    width: 40%;
+    text-align: left;
+  }
+  .contenedor .miniContenedor .section1 h2 {
+    padding-right: 4rem;
+  }
+  .contenedor .miniContenedor .calification {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 3rem;
+  }
+  .contenedor .miniContenedor .calification div {
+    margin: 0 1rem;
+  }
+  .contenedor .miniContenedor .calif2 {
+    margin-left: 9rem;
+  }
+  .contenedor .miniContenedor .calif3 {
+    margin-left: 15rem;
+  }
+  .contenedor .contentCard {
+    flex-direction: row;
+    margin-top: 1rem;
+  }
+  .contenedor .contentCard .ml-1 {
+    margin-left: 1rem;
+  }
+  .contenedor .contentCard .card2 {
+    margin-top: 4rem;
+  }
+  .contenedor .contentCard .card3 {
+    margin-top: 7rem;
+  }
 }/*# sourceMappingURL=index.css.map */
